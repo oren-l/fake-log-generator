@@ -39,7 +39,7 @@ const statusList = [
 ]
 
 const pathList = [
-    'autopayoff',
+    ...(_.fill(new Array(8), 'autopayoff')), // give weight of 16 to this value (autopayoff)
     'account',
     'beatrix',
     'currency',
