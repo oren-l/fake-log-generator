@@ -1,6 +1,7 @@
-Usage: `npm run logs {n} >{outfile}`  
-where:
-* `{n}` is the number of logs
-* `{outfile}` is the file generated
+## Setup
+1. Clone this repo
+2. Run `npm install`
+3. Run `chmod +x run.sh`
 
-Example: `npm run logs 1000 >output.log`
+## Usage
+Run `./run.sh` 

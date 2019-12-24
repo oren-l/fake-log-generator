@@ -1,2 +1,5 @@
 node_modules/
 *.log
+
+# dont ignore output.log (override *.log in this specific case)
+!output.log
