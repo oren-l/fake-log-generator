@@ -10,16 +10,6 @@ const [
 const numOfLogLines = parseInt(strNumOfLogLines, 10)
 
 
-// <random_ip from array of 5 ip address> - - [<random>] "<GET/POST>" /api/payment/<autopayoff/another_service/another_service/another_service>/?accountId=<random_UUID> HTTP/1.1 <200/401/302/404/500> <random 740 - 1920></random_UUID>
-
-// const randIp = () =>
-//     _.range(4)
-//         .map(() => _.random(1, 127))
-//         .join('.')
-
-// [10/Oct/2000:13:55:36 -0700] 
-// [DD/MMM/YYYY:HH:mm:ss ZZ]
-
 const ipList = [
     '58.53.97.113',
     '119.48.44.5',
@@ -100,13 +90,4 @@ _(logDates)
         const timeCLF = time.format('DD/MMM/YYYY:HH:mm:ss ZZ')
         console.log(generateLogLine(timeCLF));
     })
-
-
-// console.log(
-//     _.range(15)
-//         .map(randIp)
-//         .map((ip) => `'${ip}'`)
-//         .join(',\n')    
-// );
-
 

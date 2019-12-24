@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/main.js",
   "scripts": {
-    "start": "nodemon -- 200",
+    "start": "nodemon src/main.js -- 200",
     "logs": "node src/main.js"
   },
   "keywords": [],
