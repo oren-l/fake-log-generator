@@ -31,7 +31,7 @@ const methods = [
 ]
 
 const statusList = [
-    200,
+    ...(_.fill(new Array(16), 200)), // give weight of 16 to this value (200)
     302,
     400,
     401,
